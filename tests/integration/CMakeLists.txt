@@ -1,0 +1,3 @@
+add_executable(it_Pipeline it_Pipeline.cpp)
+target_link_libraries(it_Pipeline Pipeline gtest_main)
+gtest_discover_tests(it_Pipeline)

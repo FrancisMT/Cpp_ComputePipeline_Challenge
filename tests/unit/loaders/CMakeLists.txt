@@ -1,0 +1,3 @@
+add_executable(ut_LoadAction ut_LoadAction.cpp)
+target_link_libraries(ut_LoadAction LoadAction Pipeline gtest_main)
+gtest_discover_tests(ut_LoadAction)
